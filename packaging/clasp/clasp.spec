@@ -35,7 +35,6 @@ rm -rf %{buildroot}
 %files
 %{_bindir}/clasp
 %{_bindir}/lpconvert
-%{_libdir}/libclasp
 
 %check
 ctest -V %{?_smp_mflags}
