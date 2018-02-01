@@ -2,32 +2,33 @@
 
 ## Context
 
-opam need aspcud as a dependency and there is no package for rpm linux distribution.
+opam need [aspcud](https://opam.ocaml.org/doc/Specifying_Solver_Preferences.html)
+as a dependency and there is no package for rpm linux distribution.
 The idea is to try to create packages for the dependencies and eventually
 create a rpm for opam.
 
 ### opam issues about missing opam package.
 
-https://github.com/ocaml/opam/issues/2953
-https://github.com/ocaml/opam/issues/1235
+* https://github.com/ocaml/opam/issues/2953
+* https://github.com/ocaml/opam/issues/1235
 
 ### aspcud and dependencies:
 
-https://github.com/potassco/aspcud
-https://github.com/potassco/clasp
-https://github.com/potassco/libpotassco
-https://github.com/potassco/clingo
+* https://github.com/potassco/aspcud
+* https://github.com/potassco/clasp
+* https://github.com/potassco/libpotassco
+* https://github.com/potassco/clingo
 
 ## Rpm packaging
 
 ### Previous packaging
 
-https://cottsay.fedorapeople.org/
-https://cottsay.fedorapeople.org/clasp/
-https://cottsay.fedorapeople.org/aspcud/
-https://cottsay.fedorapeople.org/clingo/
-https://cottsay.fedorapeople.org/potassco/
-https://bugzilla.redhat.com/show_bug.cgi?id=1093522
+* https://cottsay.fedorapeople.org/
+* https://cottsay.fedorapeople.org/clasp/
+* https://cottsay.fedorapeople.org/aspcud/
+* https://cottsay.fedorapeople.org/clingo/
+* https://cottsay.fedorapeople.org/potassco/
+* https://bugzilla.redhat.com/show_bug.cgi?id=1093522
 
 ### Fedora wiki
 https://fedoraproject.org/wiki/How_to_create_an_RPM_package
